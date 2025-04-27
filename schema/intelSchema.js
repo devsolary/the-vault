@@ -20,5 +20,6 @@ const IntelSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.Model('Intel', IntelSchema) 
+const Intel = mongoose.model("Intel", IntelSchema);
+module.exports = Intel
 
